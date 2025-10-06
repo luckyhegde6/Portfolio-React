@@ -9,11 +9,11 @@ export const portfolio = {
   name: "Your Name",
   description: "Short tagline or role",
   socials: {
-    github: "https://github.com/yourusername",
+    github: "https://github.com/luckyhegde6",
     linkedin: "…",
     // etc
   },
-  projects: <Project[]>[
+  projects:[
     {
       title: "Project A",
       description: "…",
@@ -21,5 +21,5 @@ export const portfolio = {
       techStack: ["React", "Tailwind", "TypeScript"],
     },
     // more
-  ],
+  ] as Project[],
 }
